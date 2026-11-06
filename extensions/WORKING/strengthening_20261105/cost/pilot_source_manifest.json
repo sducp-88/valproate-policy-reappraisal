@@ -1,0 +1,75 @@
+{
+  "mode": "pilot",
+  "date_local": "2026-11-05",
+  "amendment_sha256": "df09eba167e856595d3e075611e0562606a996c29bf63ac2c8e3e3162925a46f",
+  "scope": "national presentation-month totals only; no practice or patient records",
+  "chemical_scope": [
+    "Sodium valproate",
+    "Valproic acid"
+  ],
+  "resources": [
+    {
+      "month": "202309",
+      "resource": "EPD_202309",
+      "sql": "SELECT YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION,\n    COUNT(*) AS n_rows,SUM(ITEMS) AS items,SUM(TOTAL_QUANTITY) AS total_quantity,\n    SUM(QUANTITY*ITEMS) AS quantity_times_items,SUM(NIC) AS nic,SUM(ACTUAL_COST) AS actual_cost,\n    COUNTIF(NIC IS NULL) AS nic_null_rows,COUNTIF(ACTUAL_COST IS NULL) AS actual_cost_null_rows\n    FROM `EPD_202309` WHERE CHEMICAL_SUBSTANCE_BNF_DESCR IN ('Sodium valproate','Valproic acid')\n    GROUP BY YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION",
+      "url": "https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?resource_id=EPD_202309&sql=SELECT+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION%2C%0A++++COUNT%28%2A%29+AS+n_rows%2CSUM%28ITEMS%29+AS+items%2CSUM%28TOTAL_QUANTITY%29+AS+total_quantity%2C%0A++++SUM%28QUANTITY%2AITEMS%29+AS+quantity_times_items%2CSUM%28NIC%29+AS+nic%2CSUM%28ACTUAL_COST%29+AS+actual_cost%2C%0A++++COUNTIF%28NIC+IS+NULL%29+AS+nic_null_rows%2CCOUNTIF%28ACTUAL_COST+IS+NULL%29+AS+actual_cost_null_rows%0A++++FROM+%60EPD_202309%60+WHERE+CHEMICAL_SUBSTANCE_BNF_DESCR+IN+%28%27Sodium+valproate%27%2C%27Valproic+acid%27%29%0A++++GROUP+BY+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION",
+      "file": "raw/EPD_202309_cost_grouped.json",
+      "bytes": 22615,
+      "sha256": "a4e7ab9ed3e41906cf5455c2bb85c1f34d6883a5373e4166e2420a04f63beeaa",
+      "presentations": 58,
+      "retrieved_at_utc": "2026-11-05T04:57:15.723435+00:00",
+      "attempt_errors": []
+    },
+    {
+      "month": "202311",
+      "resource": "EPD_202311",
+      "sql": "SELECT YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION,\n    COUNT(*) AS n_rows,SUM(ITEMS) AS items,SUM(TOTAL_QUANTITY) AS total_quantity,\n    SUM(QUANTITY*ITEMS) AS quantity_times_items,SUM(NIC) AS nic,SUM(ACTUAL_COST) AS actual_cost,\n    COUNTIF(NIC IS NULL) AS nic_null_rows,COUNTIF(ACTUAL_COST IS NULL) AS actual_cost_null_rows\n    FROM `EPD_202311` WHERE CHEMICAL_SUBSTANCE_BNF_DESCR IN ('Sodium valproate','Valproic acid')\n    GROUP BY YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION",
+      "url": "https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?resource_id=EPD_202311&sql=SELECT+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION%2C%0A++++COUNT%28%2A%29+AS+n_rows%2CSUM%28ITEMS%29+AS+items%2CSUM%28TOTAL_QUANTITY%29+AS+total_quantity%2C%0A++++SUM%28QUANTITY%2AITEMS%29+AS+quantity_times_items%2CSUM%28NIC%29+AS+nic%2CSUM%28ACTUAL_COST%29+AS+actual_cost%2C%0A++++COUNTIF%28NIC+IS+NULL%29+AS+nic_null_rows%2CCOUNTIF%28ACTUAL_COST+IS+NULL%29+AS+actual_cost_null_rows%0A++++FROM+%60EPD_202311%60+WHERE+CHEMICAL_SUBSTANCE_BNF_DESCR+IN+%28%27Sodium+valproate%27%2C%27Valproic+acid%27%29%0A++++GROUP+BY+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION",
+      "file": "raw/EPD_202311_cost_grouped.json",
+      "bytes": 23359,
+      "sha256": "e96ed3a489a322a83e4d912b78d91a36423f8fc87d831dab36e1c53aeacb6bd8",
+      "presentations": 60,
+      "retrieved_at_utc": "2026-11-05T04:57:16.077221+00:00",
+      "attempt_errors": []
+    },
+    {
+      "month": "202403",
+      "resource": "EPD_202403",
+      "sql": "SELECT YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION,\n    COUNT(*) AS n_rows,SUM(ITEMS) AS items,SUM(TOTAL_QUANTITY) AS total_quantity,\n    SUM(QUANTITY*ITEMS) AS quantity_times_items,SUM(NIC) AS nic,SUM(ACTUAL_COST) AS actual_cost,\n    COUNTIF(NIC IS NULL) AS nic_null_rows,COUNTIF(ACTUAL_COST IS NULL) AS actual_cost_null_rows\n    FROM `EPD_202403` WHERE CHEMICAL_SUBSTANCE_BNF_DESCR IN ('Sodium valproate','Valproic acid')\n    GROUP BY YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION",
+      "url": "https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?resource_id=EPD_202403&sql=SELECT+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION%2C%0A++++COUNT%28%2A%29+AS+n_rows%2CSUM%28ITEMS%29+AS+items%2CSUM%28TOTAL_QUANTITY%29+AS+total_quantity%2C%0A++++SUM%28QUANTITY%2AITEMS%29+AS+quantity_times_items%2CSUM%28NIC%29+AS+nic%2CSUM%28ACTUAL_COST%29+AS+actual_cost%2C%0A++++COUNTIF%28NIC+IS+NULL%29+AS+nic_null_rows%2CCOUNTIF%28ACTUAL_COST+IS+NULL%29+AS+actual_cost_null_rows%0A++++FROM+%60EPD_202403%60+WHERE+CHEMICAL_SUBSTANCE_BNF_DESCR+IN+%28%27Sodium+valproate%27%2C%27Valproic+acid%27%29%0A++++GROUP+BY+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION",
+      "file": "raw/EPD_202403_cost_grouped.json",
+      "bytes": 23356,
+      "sha256": "0b98ec59efadc907e6491635de22928a80f756302c62695c0233590429f03b8a",
+      "presentations": 60,
+      "retrieved_at_utc": "2026-11-05T04:57:16.995117+00:00",
+      "attempt_errors": []
+    },
+    {
+      "month": "202404",
+      "resource": "EPD_202404",
+      "sql": "SELECT YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION,\n    COUNT(*) AS n_rows,SUM(ITEMS) AS items,SUM(TOTAL_QUANTITY) AS total_quantity,\n    SUM(QUANTITY*ITEMS) AS quantity_times_items,SUM(NIC) AS nic,SUM(ACTUAL_COST) AS actual_cost,\n    COUNTIF(NIC IS NULL) AS nic_null_rows,COUNTIF(ACTUAL_COST IS NULL) AS actual_cost_null_rows\n    FROM `EPD_202404` WHERE CHEMICAL_SUBSTANCE_BNF_DESCR IN ('Sodium valproate','Valproic acid')\n    GROUP BY YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION",
+      "url": "https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?resource_id=EPD_202404&sql=SELECT+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION%2C%0A++++COUNT%28%2A%29+AS+n_rows%2CSUM%28ITEMS%29+AS+items%2CSUM%28TOTAL_QUANTITY%29+AS+total_quantity%2C%0A++++SUM%28QUANTITY%2AITEMS%29+AS+quantity_times_items%2CSUM%28NIC%29+AS+nic%2CSUM%28ACTUAL_COST%29+AS+actual_cost%2C%0A++++COUNTIF%28NIC+IS+NULL%29+AS+nic_null_rows%2CCOUNTIF%28ACTUAL_COST+IS+NULL%29+AS+actual_cost_null_rows%0A++++FROM+%60EPD_202404%60+WHERE+CHEMICAL_SUBSTANCE_BNF_DESCR+IN+%28%27Sodium+valproate%27%2C%27Valproic+acid%27%29%0A++++GROUP+BY+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION",
+      "file": "raw/EPD_202404_cost_grouped.json",
+      "bytes": 22597,
+      "sha256": "37f2f1f852cfb9327d5f87a0d895002627d4e3a41045f9ec0da41ceaeafd5727",
+      "presentations": 58,
+      "retrieved_at_utc": "2026-11-05T04:57:18.373997+00:00",
+      "attempt_errors": []
+    },
+    {
+      "month": "202504",
+      "resource": "EPD_202504",
+      "sql": "SELECT YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION,\n    COUNT(*) AS n_rows,SUM(ITEMS) AS items,SUM(TOTAL_QUANTITY) AS total_quantity,\n    SUM(QUANTITY*ITEMS) AS quantity_times_items,SUM(NIC) AS nic,SUM(ACTUAL_COST) AS actual_cost,\n    COUNTIF(NIC IS NULL) AS nic_null_rows,COUNTIF(ACTUAL_COST IS NULL) AS actual_cost_null_rows\n    FROM `EPD_202504` WHERE CHEMICAL_SUBSTANCE_BNF_DESCR IN ('Sodium valproate','Valproic acid')\n    GROUP BY YEAR_MONTH,BNF_CHEMICAL_SUBSTANCE,CHEMICAL_SUBSTANCE_BNF_DESCR,BNF_CODE,BNF_DESCRIPTION",
+      "url": "https://opendata.nhsbsa.net/api/3/action/datastore_search_sql?resource_id=EPD_202504&sql=SELECT+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION%2C%0A++++COUNT%28%2A%29+AS+n_rows%2CSUM%28ITEMS%29+AS+items%2CSUM%28TOTAL_QUANTITY%29+AS+total_quantity%2C%0A++++SUM%28QUANTITY%2AITEMS%29+AS+quantity_times_items%2CSUM%28NIC%29+AS+nic%2CSUM%28ACTUAL_COST%29+AS+actual_cost%2C%0A++++COUNTIF%28NIC+IS+NULL%29+AS+nic_null_rows%2CCOUNTIF%28ACTUAL_COST+IS+NULL%29+AS+actual_cost_null_rows%0A++++FROM+%60EPD_202504%60+WHERE+CHEMICAL_SUBSTANCE_BNF_DESCR+IN+%28%27Sodium+valproate%27%2C%27Valproic+acid%27%29%0A++++GROUP+BY+YEAR_MONTH%2CBNF_CHEMICAL_SUBSTANCE%2CCHEMICAL_SUBSTANCE_BNF_DESCR%2CBNF_CODE%2CBNF_DESCRIPTION",
+      "file": "raw/EPD_202504_cost_grouped.json",
+      "bytes": 23722,
+      "sha256": "4e909d90366143c8f944dd419f2dda82b2ed002a11017c24d48ba17af59fad18",
+      "presentations": 61,
+      "retrieved_at_utc": "2026-11-05T04:57:18.761644+00:00",
+      "attempt_errors": []
+    }
+  ],
+  "complete": true,
+  "financial_method_change": "Actual Cost calculation changed April 2024; older months not retrospectively recalculated; no causal savings analysis",
+  "method_change_source": "https://opendata.nhsbsa.net/news/changes-to-actual-cost-reporting-calculation-pharmacy-only"
+}

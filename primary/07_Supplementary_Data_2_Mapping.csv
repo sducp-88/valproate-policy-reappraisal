@@ -1,0 +1,65 @@
+BNF_CODE,BNF_DESCRIPTION,CHEMICAL_SUBSTANCE_BNF_DESCR,form,g_per_unit
+0408010W0AAA1A1,Sodium valproate 300mg modified-release tablets,Sodium valproate,oral_solid,0.3
+0408010W0AAA2A2,Sodium valproate 500mg modified-release tablets,Sodium valproate,oral_solid,0.5
+0408010W0AAA7A7,Sodium valproate 500mg/5ml oral liquid,Sodium valproate,oral_liquid,0.1
+0408010W0AAAAAA,Sodium valproate 200mg/5ml oral solution sugar free,Sodium valproate,oral_liquid,0.04
+0408010W0AAABAB,Sodium valproate 100mg tablets,Sodium valproate,oral_solid,0.1
+0408010W0AAACAC,Sodium valproate 200mg gastro-resistant tablets,Sodium valproate,oral_solid,0.2
+0408010W0AAADAD,Sodium valproate 500mg gastro-resistant tablets,Sodium valproate,oral_solid,0.5
+0408010W0AAAEAE,Sodium valproate 200mg/5ml oral solution,Sodium valproate,oral_liquid,0.04
+0408010W0AAAHAH,Sodium valproate 400mg inj vials,Sodium valproate,nonoral,
+0408010W0AAAZAZ,Sodium valproate 200mg modified-release tablets,Sodium valproate,oral_solid,0.2
+0408010W0AABCBC,Sodium valproate 300mg suppositories,Sodium valproate,nonoral,
+0408010W0AABPBP,Sodium valproate 300mg/3ml solution for injection ampoules,Sodium valproate,nonoral,
+0408010W0AABQBQ,Sodium valproate 150mg modified-release capsules,Sodium valproate,oral_solid,0.15
+0408010W0AABRBR,Sodium valproate 300mg modified-release capsules,Sodium valproate,oral_solid,0.3
+0408010W0AABSBS,Sodium valproate 500mg MR gran sachets sugar free,Sodium valproate,oral_solid,0.5
+0408010W0AABTBT,Sodium valproate 1g modified-release gran sachets sugar free,Sodium valproate,oral_solid,1.0
+0408010W0AABVBV,Sodium valproate 50mg MR gran sachets sugar free,Sodium valproate,oral_solid,0.05
+0408010W0AABWBW,Sodium valproate 100mg MR gran sachets sugar free,Sodium valproate,oral_solid,0.1
+0408010W0AABXBX,Sodium valproate 250mg MR gran sachets sugar free,Sodium valproate,oral_solid,0.25
+0408010W0AABYBY,Sodium valproate 750mg MR gran sachets sugar free,Sodium valproate,oral_solid,0.75
+0408010W0AABZBZ,Sodium valproate 400mg/4ml solution for injection ampoules,Sodium valproate,nonoral,
+0408010W0BBAAAB,Epilim 100mg crushable tablets,Sodium valproate,oral_solid,0.1
+0408010W0BBABAC,Epilim 200 gastro-resistant tablets,Sodium valproate,oral_solid,0.2
+0408010W0BBACAD,Epilim 500 gastro-resistant tablets,Sodium valproate,oral_solid,0.5
+0408010W0BBADAA,Epilim 200mg/5ml liquid,Sodium valproate,oral_liquid,0.04
+0408010W0BBAEAE,Epilim 200mg/5ml syrup,Sodium valproate,oral_liquid,0.04
+0408010W0BBAIAH,Epilim Intravenous 400mg inj vials,Sodium valproate,nonoral,
+0408010W0BBAJAZ,Epilim Chrono 200 tablets,Sodium valproate,oral_solid,0.2
+0408010W0BBAKA1,Epilim Chrono 300 tablets,Sodium valproate,oral_solid,0.3
+0408010W0BBALA2,Epilim Chrono 500 tablets,Sodium valproate,oral_solid,0.5
+0408010W0BBAMBS,Epilim Chronosphere MR 500mg granules sachets,Sodium valproate,oral_solid,0.5
+0408010W0BBANBV,Epilim Chronosphere MR 50mg granules sachets,Sodium valproate,oral_solid,0.05
+0408010W0BBAPBW,Epilim Chronosphere MR 100mg granules sachets,Sodium valproate,oral_solid,0.1
+0408010W0BBAQBX,Epilim Chronosphere MR 250mg granules sachets,Sodium valproate,oral_solid,0.25
+0408010W0BBARBY,Epilim Chronosphere MR 750mg granules sachets,Sodium valproate,oral_solid,0.75
+0408010W0BBASBT,Epilim Chronosphere MR 1000mg granules sachets,Sodium valproate,oral_solid,1.0
+0408010W0BEABAD,Orlept 500mg gastro-resistant tablets,Sodium valproate,oral_solid,0.5
+0408010W0BEACAA,Orlept SF 200mg/5ml liquid,Sodium valproate,oral_liquid,0.04
+0408010W0BHAAA1,Epival CR 300mg tablets,Sodium valproate,oral_solid,0.3
+0408010W0BHABA2,Epival CR 500mg tablets,Sodium valproate,oral_solid,0.5
+0408010W0BIAABP,Episenta 300mg/3ml solution for injection ampoules,Sodium valproate,nonoral,
+0408010W0BIABBQ,Episenta 150mg modified-release capsules,Sodium valproate,oral_solid,0.15
+0408010W0BIACBR,Episenta 300mg modified-release capsules,Sodium valproate,oral_solid,0.3
+0408010W0BIADBS,Episenta 500mg modified-release granules sachets,Sodium valproate,oral_solid,0.5
+0408010W0BIAEBT,Episenta 1000mg modified-release granules sachets,Sodium valproate,oral_solid,1.0
+0408010W0BJAACA,Depakin 200mg/ml oral solution,Sodium valproate,oral_liquid,0.2
+0408010W0BKAAAZ,Dyzantil 200mg modified-release tablets,Sodium valproate,oral_solid,0.2
+0408010W0BKABA1,Dyzantil 300mg modified-release tablets,Sodium valproate,oral_solid,0.3
+0408010W0BKACA2,Dyzantil 500mg modified-release tablets,Sodium valproate,oral_solid,0.5
+0402030Q0AAAAAA,Valproic acid 250mg gastro-resistant tablets,Valproic acid,oral_solid,0.25
+0402030Q0AAABAB,Valproic acid 500mg gastro-resistant tablets,Valproic acid,oral_solid,0.5
+0402030Q0BBAAAA,Depakote 250mg gastro-resistant tablets,Valproic acid,oral_solid,0.25
+0402030Q0BBABAB,Depakote 500mg gastro-resistant tablets,Valproic acid,oral_solid,0.5
+0402030Q0BCAAAA,Belvo 250mg gastro-resistant tablets,Valproic acid,oral_solid,0.25
+0402030Q0BCABAB,Belvo 500mg gastro-resistant tablets,Valproic acid,oral_solid,0.5
+0402030Q0BDAAAB,Syonell 500mg gastro-resistant tablets,Valproic acid,oral_solid,0.5
+0402030Q0BDABAA,Syonell 250mg gastro-resistant tablets,Valproic acid,oral_solid,0.25
+040801020AAAAAA,Valproic acid 150mg gastro-resistant capsules,Valproic acid,oral_solid,0.15
+040801020AAABAB,Valproic acid 300mg gastro-resistant capsules,Valproic acid,oral_solid,0.3
+040801020AAACAC,Valproic acid 500mg gastro-resistant capsules,Valproic acid,oral_solid,0.5
+040801020AAAGAG,Valproic acid 500mg/5ml oral liquid,Valproic acid,oral_liquid,0.1
+040801020BBAAAA,Convulex 150mg gastro-resistant capsules,Valproic acid,oral_solid,0.15
+040801020BBABAB,Convulex 300mg gastro-resistant capsules,Valproic acid,oral_solid,0.3
+040801020BBACAC,Convulex 500mg gastro-resistant capsules,Valproic acid,oral_solid,0.5

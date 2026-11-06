@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "mode": "pilot",
+  "months": [
+    "202309",
+    "202311",
+    "202403",
+    "202404",
+    "202504"
+  ],
+  "cells": 297,
+  "checks": {
+    "all_cells_matched": true,
+    "no_missing_costs": true,
+    "no_source_null_cost_rows": true,
+    "nonnegative_costs": true,
+    "arithmetic_identity": true,
+    "items_exact_match_frozen": true,
+    "total_quantity_exact_match_frozen": true,
+    "n_rows_exact_match_frozen": true
+  },
+  "frozen_source": "ANALYSIS/data/valproate_presentation_month.csv",
+  "frozen_sha256": "8422dcd5d67bd1f790ec0419fa04c2040c20d014a889e4d3c3d5a148ee9c96e7",
+  "nic_total_all_routes": 17460329.740000002,
+  "actual_cost_total_all_routes": 16387624.72428,
+  "interpretation": "NIC and Actual Cost are supplied summed amounts, never multiplied again by ITEMS."
+}

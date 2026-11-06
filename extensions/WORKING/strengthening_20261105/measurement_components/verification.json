@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "frozen_inputs_unchanged": true,
+  "aggregation_matches_frozen_primary": true,
+  "decomposition_identity": true,
+  "paired_covariance_independently_matches_statsmodels": true,
+  "log_identity_checks": [
+    {
+      "breakpoint": 202311,
+      "max_coefficient_identity_error": 9.159339953157541e-16
+    },
+    {
+      "breakpoint": 202402,
+      "max_coefficient_identity_error": 8.881784197001252e-16
+    }
+  ]
+}

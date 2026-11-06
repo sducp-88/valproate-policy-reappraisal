@@ -1,0 +1,98 @@
+{
+  "figure_number": "Figure S3",
+  "figure_title": "Calendar-aligned national valproate dispensing and female recipient indicators",
+  "figure_legend": "Panels show oral prescription items per day (A), oral defined daily doses (DDDs) per day (B), and the NHSBSA VPA1 female recipient count for ages 13–54 years (C). Grey lines show 38 overlapping three-month windows fully within January 2022–April 2025; teal circles mark 13 non-overlapping calendar quarters from Q1 2022 to Q1 2025. Outlined circles identify those two endpoint quarters. The open diamond marks February–April 2025, which overlaps Q1 2025 and is not an additional independent quarter. Dispensing totals were summed within each window and divided by its actual calendar days. Q1-to-Q1 percentage changes are descriptive comparisons, not policy effects or counterfactual estimates. Each panel retains its own units and axis range. Panels A and B include all ages and sexes and only oral products; panel C covers females aged 13–54 and the dashboard drug scope. Dashboard counts aggregate patients deduplicated within prescribing practices and are not guaranteed nationally unique persons. Non-overlapping windows may include the same patients. The series provide complementary measurements from NHSBSA sources, not independent external validation or a basis for dose-per-person calculations. Patient data are a current historical snapshot retrieved from the public dashboard on 5 November 2026.",
+  "figure_alt_text": "Three stacked panels show calendar-aligned valproate indicators with separate units. Q1 2022 to Q1 2025 descriptive changes are −10.2% in all-age, all-sex oral prescription items per day, −2.0% in oral DDDs per day, and −25.2% in female recipients aged13–54 counted within practices and aggregated nationally. Population and formulation coverage differ across panels.",
+  "table_number": "Table S9",
+  "table_title": "Descriptive comparison of calendar-aligned dispensing and female recipient indicators",
+  "table_columns": [
+    "Measure",
+    "Q1 2022",
+    "Q1 2025",
+    "Change, Q1 2022 to Q1 2025",
+    "Feb–Apr 2025"
+  ],
+  "table_rows": [
+    {
+      "Measure": "Female recipients aged 13–54, practice-aggregated count",
+      "Q1 2022": "23,836",
+      "Q1 2025": "17,826",
+      "Change, Q1 2022 to Q1 2025": "−6,010 (−25.2%)",
+      "Feb–Apr 2025": "17,597"
+    },
+    {
+      "Measure": "Female recipient indicator per 1,000 registered females aged 13–54",
+      "Q1 2022": "1.517",
+      "Q1 2025": "1.132",
+      "Change, Q1 2022 to Q1 2025": "−0.385 (−25.4%)",
+      "Feb–Apr 2025": "1.123"
+    },
+    {
+      "Measure": "Oral prescription items per day, all ages and sexes",
+      "Q1 2022": "7,971.6",
+      "Q1 2025": "7,159.9",
+      "Change, Q1 2022 to Q1 2025": "−811.7 (−10.2%)",
+      "Feb–Apr 2025": "7,074.8"
+    },
+    {
+      "Measure": "Oral DDDs per day, all ages and sexes",
+      "Q1 2022": "124,588.9",
+      "Q1 2025": "122,090.7",
+      "Change, Q1 2022 to Q1 2025": "−2,498.3 (−2.0%)",
+      "Feb–Apr 2025": "120,666.0"
+    }
+  ],
+  "table_numeric_rows": [
+    {
+      "measure": "numerator",
+      "label": "Female recipients aged 13–54, practice-aggregated count",
+      "Q1_2022": 23836.0,
+      "Q1_2025": 17826.0,
+      "absolute_change": -6010.0,
+      "percent_change": -25.213962074173523,
+      "Feb_Apr_2025": 17597.0
+    },
+    {
+      "measure": "calculated_rate_per_1000",
+      "label": "Female recipient indicator per 1,000 registered females aged 13–54",
+      "Q1_2022": 1.5167479234438097,
+      "Q1_2025": 1.1319953866711068,
+      "absolute_change": -0.3847525367727027,
+      "percent_change": -25.3669400713016,
+      "Feb_Apr_2025": 1.122790405651661
+    },
+    {
+      "measure": "oral_daily_items",
+      "label": "Oral prescription items per day, all ages and sexes",
+      "Q1_2022": 7971.577777777778,
+      "Q1_2025": 7159.911111111112,
+      "absolute_change": -811.6666666666661,
+      "percent_change": -10.18200774418001,
+      "Feb_Apr_2025": 7074.775280898876
+    },
+    {
+      "measure": "oral_daily_ddd",
+      "label": "Oral DDDs per day, all ages and sexes",
+      "Q1_2022": 124588.94948148148,
+      "Q1_2025": 122090.65185185189,
+      "absolute_change": -2498.297629629611,
+      "percent_change": -2.005232117316269,
+      "Feb_Apr_2025": 120665.9925093633
+    }
+  ],
+  "table_notes": [
+    "Change is the absolute difference (percentage change) from Q1 2022 to Q1 2025, calculated from unrounded values. These are descriptive comparisons, not policy-effect estimates.",
+    "Q1 denotes January–March. The February–April 2025 column is the latest fully within-period window; it overlaps Q1 2025 and is shown separately.",
+    "Female recipient counts are aggregated from prescribing practices after within-practice deduplication; nationally unique people are not guaranteed. The denominator-derived rate is recalculated from the published count and GP-registered female population denominator and rounded to three decimal places here.",
+    "Oral items and DDDs include all ages and sexes; counts cover females aged13–54 and the dashboard drug scope. Oral totals are divided by the actual number of calendar days in each window. Differences in population and formulation coverage preclude dose-per-person calculations or direct effect-size equivalence.",
+    "DDDs: defined daily doses. The public patient dashboard was accessed on 5 November 2026; data were preserved by UI text extraction, not an original provider CSV export."
+  ],
+  "data_sources": {
+    "dispensing": "Frozen NHSBSA English Prescribing Dataset oral series, aggregated in verified analysis inputs",
+    "patients": "NHSBSA Valproate Prescribing in Female Patients Under55 dashboard, National, female13–54, VPA1; UI_TEXT_EXTRACTION"
+  },
+  "sources_urls": [
+    "https://www.nhsbsa.nhs.uk/access-our-data-products/epact2/dashboards-and-specifications/valproate-safety-dashboard",
+    "https://datahub.nhsbsa.nhs.uk/data-hub/data-products/public-data/prescription-dashboards-and-reports/dcb9ec3c-8aba-40e6-a808-6e1c848f4462"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS_WITH_INTERPRETIVE_LIMITATIONS",
+  "decomposition_max_error": 2.886579864025407e-15,
+  "contrast_checks": [
+    {
+      "measure": "ddd_per_item",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 1.7896795156957523e-13
+    },
+    {
+      "measure": "items_per_row",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 5.1514348342607263e-14
+    },
+    {
+      "measure": "ddd_per_row",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 4.192202140984591e-13
+    },
+    {
+      "measure": "ddd_per_item",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 3.1086244689504383e-13
+    },
+    {
+      "measure": "items_per_row",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 2.398081733190338e-14
+    },
+    {
+      "measure": "ddd_per_row",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 7.513989430663059e-13
+    }
+  ]
+}
+

@@ -1,0 +1,37 @@
+{
+  "date_local": "2026-11-05",
+  "pass": true,
+  "40_month_window_unchanged": true,
+  "source_inputs_sha256_unchanged": true,
+  "all_new_PW_converged": true,
+  "rho_clipping_used": false,
+  "existing_PW_reproduced": true,
+  "reported_endpoint_not_replaced": true,
+  "primary_model_unchanged": true,
+  "source_hashes": [
+    {
+      "file": "WORKING/strengthening_20261105/AMENDMENT_BEFORE_ADDITIONAL_ANALYSIS.json",
+      "sha256": "75ff618cdd086b261cc86eaec045a6c9ed9e69c13fc829e4db25c7fb74ddb741"
+    },
+    {
+      "file": "ANALYSIS/data/monthly_analysis.csv",
+      "sha256": "31c501f1871742cc2abfe92d2b40fb75d3b4f4a8b50a3938ef0cd51e557ca0fe"
+    },
+    {
+      "file": "ANALYSIS/data/valproate_presentation_month.csv",
+      "sha256": "8422dcd5d67bd1f790ec0419fa04c2040c20d014a889e4d3c3d5a148ee9c96e7"
+    },
+    {
+      "file": "ANALYSIS/results/models.json",
+      "sha256": "41851f26c44d72e22dc05b4bdf3ffbbf8345c57c9adae03a42768772e9c120d4"
+    },
+    {
+      "file": "ANALYSIS/results/independent_verification.json",
+      "sha256": "bd9cacb2d257624865a492fc338da35b999f02e2f6bb9cbeea946d79d2be5ac7"
+    },
+    {
+      "file": "ANALYSIS/scripts/verify_models.py",
+      "sha256": "77d0585924552d5519cb6f7aeeaea16b549127b4f6bc893ca2ed3a1a323cd0cc"
+    }
+  ]
+}

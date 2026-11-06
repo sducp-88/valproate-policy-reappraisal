@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "design": "Dated exploratory descriptive context; no causal model, p value, dose/person ratio or independent-cohort claim",
+  "patient_source": "Same-date current historical dashboard snapshot extracted from visible national UI table, not an original provider CSV export",
+  "n_raw_windows": 94,
+  "n_within_period_windows": 38,
+  "n_nonoverlapping_calendar_quarters": 13,
+  "first_complete_window": "January–March2022",
+  "last_calendar_matched_window": "January–March2025",
+  "latest_window": "February–April2025 (overlaps Q1 2025)",
+  "max_absolute_published_rounding_difference": 0.004986492944948351,
+  "comparisons": [
+    {
+      "measure": "numerator",
+      "label": "Female recipients counted within practices, aged13-54",
+      "Q1_2022": 23836.0,
+      "Q1_2025": 17826.0,
+      "absolute_change_Q1_2022_to_Q1_2025": -6010.0,
+      "percent_change_Q1_2022_to_Q1_2025": -25.213962074173523,
+      "Feb_Apr_2025": 17597.0,
+      "latest_window_separate_from_Q1_2025": true
+    },
+    {
+      "measure": "calculated_rate_per_1000",
+      "label": "Female recipient indicator per1000 registered females, aged13-54",
+      "Q1_2022": 1.5167479234438095,
+      "Q1_2025": 1.1319953866711068,
+      "absolute_change_Q1_2022_to_Q1_2025": -0.3847525367727027,
+      "percent_change_Q1_2022_to_Q1_2025": -25.366940071301602,
+      "Feb_Apr_2025": 1.1227904056516613,
+      "latest_window_separate_from_Q1_2025": true
+    },
+    {
+      "measure": "denominator",
+      "label": "Female GP-registered population denominator, aged13-54",
+      "Q1_2022": 15715202.0,
+      "Q1_2025": 15747414.0,
+      "absolute_change_Q1_2022_to_Q1_2025": 32212.0,
+      "percent_change_Q1_2022_to_Q1_2025": 0.20497350272685733,
+      "Feb_Apr_2025": 15672560.0,
+      "latest_window_separate_from_Q1_2025": true
+    },
+    {
+      "measure": "oral_daily_ddd",
+      "label": "All-age/all-sex oral DDDs per calendar day",
+      "Q1_2022": 124588.94948148148,
+      "Q1_2025": 122090.65185185187,
+      "absolute_change_Q1_2022_to_Q1_2025": -2498.297629629611,
+      "percent_change_Q1_2022_to_Q1_2025": -2.005232117316269,
+      "Feb_Apr_2025": 120665.9925093633,
+      "latest_window_separate_from_Q1_2025": true
+    },
+    {
+      "measure": "oral_daily_items",
+      "label": "All-age/all-sex oral prescription items per calendar day",
+      "Q1_2022": 7971.577777777778,
+      "Q1_2025": 7159.9111111111115,
+      "absolute_change_Q1_2022_to_Q1_2025": -811.6666666666661,
+      "percent_change_Q1_2022_to_Q1_2025": -10.18200774418001,
+      "Feb_Apr_2025": 7074.775280898876,
+      "latest_window_separate_from_Q1_2025": true
+    },
+    {
+      "measure": "oral_daily_rows",
+      "label": "All-age/all-sex oral source rows per calendar day",
+      "Q1_2022": 4365.7555555555555,
+      "Q1_2025": 3635.8555555555554,
+      "absolute_change_Q1_2022_to_Q1_2025": -729.9000000000001,
+      "percent_change_Q1_2022_to_Q1_2025": -16.718755567319388,
+      "Feb_Apr_2025": 3627.808988764045,
+      "latest_window_separate_from_Q1_2025": true
+    }
+  ],
+  "interpretation_boundaries": [
+    "Different patient population and formulation coverage from EPD oral volume",
+    "Patient counts aggregate practice-level deduplication; not guaranteed nationally unique people",
+    "Shared NHSBSA origin is complementary measurement, not independent external validation",
+    "Nonoverlapping windows can contain the same people and remain serially related",
+    "Endpoint percent changes are descriptive, not frozen ITS counterfactual contrasts",
+    "No treatment persistence, discontinuation, pregnancy or seizure outcomes identified"
+  ]
+}

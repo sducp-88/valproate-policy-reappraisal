@@ -1,0 +1,16 @@
+{
+  "main_text": {
+    "local_file_optional": "QA/galloway_full_text.txt",
+    "publisher_pdf_optional": "SOURCE/literature/galloway_vor.pdf",
+    "package_note": "Original publication files are not included; verified transcription and citation are supplied; not exact original-code replication",
+    "sha256": null,
+    "url": "https://qualitysafety.bmj.com/content/early/2025/11/25/bmjqs-2025-019415"
+  },
+  "supplement": {
+    "url": "https://qualitysafety.bmj.com/content/qhc/early/2025/11/25/bmjqs-2025-019415/DC1/embed/inline-supplementary-material-1.pdf?download=true",
+    "full_pdf_access": "not_obtained_this_run: web403 and sandboxed urllib network blocked",
+    "official_index_excerpt_access": "Read 2026-11-05; page3 indexed text corroborates both analyses used DDD/30.4 and Prais-Winsten, November2023. It does not supply original extraction data or executable settings.",
+    "limitation": "Only retrieved indexed excerpt used; no claim full supplement independently inspected."
+  },
+  "statistical_boundary": "Four new source-aligned checks are exploratory and are not an exact replication. Published normalised coefficients are descriptive only. The primary GLS estimates are unchanged."
+}

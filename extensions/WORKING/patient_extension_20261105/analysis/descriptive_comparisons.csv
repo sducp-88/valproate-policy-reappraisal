@@ -1,0 +1,7 @@
+measure,label,Q1_2022,Q1_2025,absolute_change_Q1_2022_to_Q1_2025,percent_change_Q1_2022_to_Q1_2025,Feb_Apr_2025,latest_window_separate_from_Q1_2025
+numerator,"Female recipients counted within practices, aged13-54",23836.0,17826.0,-6010.0,-25.213962074173523,17597.0,True
+calculated_rate_per_1000,"Female recipient indicator per1000 registered females, aged13-54",1.5167479234438095,1.1319953866711068,-0.3847525367727027,-25.366940071301602,1.1227904056516613,True
+denominator,"Female GP-registered population denominator, aged13-54",15715202.0,15747414.0,32212.0,0.20497350272685733,15672560.0,True
+oral_daily_ddd,All-age/all-sex oral DDDs per calendar day,124588.94948148148,122090.65185185187,-2498.297629629611,-2.005232117316269,120665.9925093633,True
+oral_daily_items,All-age/all-sex oral prescription items per calendar day,7971.577777777778,7159.9111111111115,-811.6666666666661,-10.18200774418001,7074.775280898876,True
+oral_daily_rows,All-age/all-sex oral source rows per calendar day,4365.7555555555555,3635.8555555555554,-729.9000000000001,-16.718755567319388,3627.808988764045,True

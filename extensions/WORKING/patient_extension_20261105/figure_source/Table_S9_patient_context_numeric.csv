@@ -1,0 +1,5 @@
+﻿measure,label,Q1_2022,Q1_2025,absolute_change,percent_change,Feb_Apr_2025
+numerator,"Female recipients aged 13–54, practice-aggregated count",23836.0,17826.0,-6010.0,-25.213962074173523,17597.0
+calculated_rate_per_1000,"Female recipient indicator per 1,000 registered females aged 13–54",1.5167479234438097,1.1319953866711068,-0.3847525367727027,-25.3669400713016,1.122790405651661
+oral_daily_items,"Oral prescription items per day, all ages and sexes",7971.577777777778,7159.911111111112,-811.6666666666661,-10.18200774418001,7074.775280898876
+oral_daily_ddd,"Oral DDDs per day, all ages and sexes",124588.94948148148,122090.65185185189,-2498.297629629611,-2.005232117316269,120665.9925093633

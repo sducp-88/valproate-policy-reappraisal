@@ -1,0 +1,105 @@
+{
+  "status": "explicit_portability_only_changes",
+  "adaptations": [
+    {
+      "file": "WORKING/strengthening_20261105/analyze_measurement_components.py",
+      "original_sha256": "44ed04828b5fa332e6741c9fb9d50e1004bee04122c0e3b47b87b1f7fdb3dac8",
+      "portable_sha256": "d0ff9710c05738bcbfdb7d3dab6c69e565c405dde21826be5a9d8657fdfea021",
+      "changes": [
+        "Removed author metadata/manuscript/builder hash dependencies; retained all scientific inputs and formulas unchanged."
+      ]
+    },
+    {
+      "file": "WORKING/strengthening_20261105/reproduction_bridge/build_reproduction_bridge.py",
+      "original_sha256": "c40d7409dde58366cb5d5da4e64c6d9203f7a786e82aa8fad5693224ebc40a3d",
+      "portable_sha256": "857cee75903631000cd9b03cec2fe376c7b95b9df2cb46580a848e1f9c1b9901",
+      "changes": [
+        "Made publisher PDF/full-text inputs optional; omitted them from package.",
+        "Included verified published-value transcription and checked it against the model bridge.",
+        "Changed output provenance keys to relative paths, preserving formulas and all numerical choices."
+      ]
+    },
+    {
+      "file": "WORKING/strengthening_20261105/cost/prepare_cost_from_raw.py",
+      "original_sha256": "05c4ce8adad4efa60763e6c6e012b4e064e43deca14415611e593631cdec2983",
+      "portable_sha256": "3965d9ed2aa087f4f4247285be5f740f87f2a87f4c4316f2cfa4ecfaa493afab",
+      "changes": [
+        "Reused offline assembly/validation block from fetch script. Replaced networking with40 supplied hash-verified raw responses; no re-download or authentication."
+      ]
+    },
+    {
+      "file": "WORKING/strengthening_20261105/cost/analyse_cost_aggregates.py",
+      "original_sha256": "92932a5ba130ff0640cb07e24a261280c0a26edad9de1121765e3264d8fd318c",
+      "portable_sha256": "3befd5db199e891f97786fbef8828cbd259efbd06b6db79dd37e9879b1df0c25",
+      "changes": [
+        "Removed workspace-specific dependency search path and optional matplotlib plotting block. All numeric analysis and result outputs unchanged."
+      ]
+    },
+    {
+      "file": "WORKING/strengthening_20261105/cost/verify_cost_outputs.py",
+      "original_sha256": "4e577caf6e47c90d6d4e64e79ac3a20d5a20861834782ed3494e1d0d2b4eb88e",
+      "portable_sha256": "b544f82c2c6a242025b92db7f81eb1920840b0d719405770e884a4a7b8dd8732",
+      "changes": [
+        "Removed inherited figure-review claim because optional figures are not included/recreated. Decimal and accounting checks unchanged."
+      ]
+    },
+    {
+      "file": "WORKING/strengthening_20261105/make_supplement_figure.py",
+      "original_sha256": "3c41d2056bed522f61da05ec25cd10ac3222afcb65f71d119a1abdbf7a6c1baf",
+      "portable_sha256": "feac56dacecffa5d62b08eefb9c299a5e5e8a8c5528c93ddd6f4f38a1a4b0c74",
+      "changes": [
+        "Removed workspace-specific matplotlib dependency search path; standard installed matplotlib and Pillow required for this optional step.",
+        "Created FIGURES directory if absent. Figure data selection and rendering code otherwise unchanged."
+      ]
+    }
+  ],
+  "scope": "Numerical formulas and scientific inputs retained; identity/manuscript dependencies and optional plots omitted.",
+  "post_replay_evidence_addition": {
+    "date_utc": "2026-11-05T05:17:46.480334+00:00",
+    "files": [
+      "pilot_all_route_presentation_month.csv",
+      "pilot_validation.json",
+      "pilot_source_manifest.json"
+    ],
+    "identity_scan": "PASS; source files already anonymous and relative-path only",
+    "numeric_scripts_changed": false,
+    "note": "Pilot raw responses reuse five of the full 40 responses; no new data or calculations."
+  },
+  "patient_extension": {
+    "date": "2026-11-05",
+    "changes": [
+      {
+        "file": "WORKING/patient_extension_20261105/frozen_inputs_manifest.json",
+        "change": "Retained three immutable ANALYSIS inputs; removed full-delivery manuscript manifest dependency. Scientific hashes unchanged."
+      },
+      {
+        "file": "WORKING/patient_extension_20261105/AMENDMENT_BEFORE_PATIENT_ANALYSIS.json",
+        "change": "Anonymous scientific copy; administrative instructions omitted and exclusion decision clarified."
+      },
+      {
+        "file": "WORKING/patient_extension_20261105/verify_patient_context.py",
+        "change": "Portable independent Decimal/window check plus all 94 raw-to-CSV rows; no source-analysis functions imported."
+      },
+      {
+        "file": "run_all.py",
+        "change": "Retains prior replay in run_strengthening.py, then adds VPA1 parse, descriptive analysis, independent check and figure/table rendering. Runtime path prefixes removed from saved logs."
+      }
+    ],
+    "unmodified_patient_scientific_scripts": [
+      {
+        "file": "analyse_patient_context.py",
+        "sha256": "81f72a9662cfee0057fdb0586307423e563ad89bb8b73c6aec1c8644d6a6d264"
+      },
+      {
+        "file": "acquisition/parse_ui_rows.py",
+        "sha256": "e54afff305d2c0f36cb3b91e6a328947571866fdd0197c66f1967c256d852651"
+      },
+      {
+        "file": "make_patient_context_figure.py",
+        "sha256": "f15b8e95b2f4c5ceb4f68e2b68887dc8139dcebee754796f349ec97dd833b241"
+      }
+    ],
+    "prior_zip_sha256": "acf1f93f5dd97417737a557a8a482ac6ea213c98514f0109c273c6a4c7d2f988",
+    "prior_zip_not_modified": true
+  }
+}

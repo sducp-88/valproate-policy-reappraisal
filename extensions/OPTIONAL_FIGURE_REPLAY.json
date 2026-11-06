@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-11-05T05:18:52.646031+00:00",
+  "optional_script": "WORKING/strengthening_20261105/make_supplement_figure.py",
+  "matplotlib_version": "3.11.2",
+  "pillow_version": "13.0.0",
+  "dependency_provision": "Standard matplotlib and Pillow packages supplied by the local Python environment; the portable script contains no workspace-specific dependency search path.",
+  "source_csv_checks": [
+    {
+      "file": "Figure_S2_ratio_source.csv",
+      "matches_original_bytes": true,
+      "sha256": "6640fe3e0201e40f6aaecad3398b1f4388dd4b3127da5410ad302187f7b98a93"
+    },
+    {
+      "file": "Figure_S2_decomposition_source.csv",
+      "matches_original_bytes": true,
+      "sha256": "b47fad42a57ffdb470166e93ba4b5dfa7e4bfb2d8e530246454aea68fdb66e1c"
+    }
+  ],
+  "rendered_png_matches_reviewed_original_sha256": true,
+  "rendered_png_sha256": "a70debbe60c67c8c042456d7e8ac9882b50099cd474bec8bdf74474bd5668d31",
+  "immutable_inputs_unchanged": true,
+  "included_in_zip": "Optional script and source CSVs; generated PDF/SVG/PNG are omitted because they are supplied separately with the manuscript."
+}

@@ -1,0 +1,21 @@
+{
+  "indicator": "VPA1",
+  "geography": "National England",
+  "sex": "female",
+  "age_band": "13-54",
+  "acquired_utc": "2026-11-05T06:10:34.050Z",
+  "acquisition_date": "2026-11-05",
+  "provenance_status": "UI_TEXT_EXTRACTION",
+  "original_provider_csv_export": false,
+  "snapshot": "Current historical dashboard snapshot, not data downloaded contemporaneously in 2022–2025. Historical revisions may exist.",
+  "raw_history_rows": 94,
+  "within_period_rolling_windows": 38,
+  "calendar_quarters": 13,
+  "national_count_note": "Counts are deduplicated within prescribing practices and then aggregated; national unique-person counts are not guaranteed.",
+  "period_note": "Only windows entirely contained in January 2022–April 2025 are analysed. Two early endmonth-only study rows extend into 2021 and are retained for provenance only.",
+  "source_urls": [
+    "https://www.nhsbsa.nhs.uk/access-our-data-products/epact2/dashboards-and-specifications/valproate-safety-dashboard",
+    "https://datahub.nhsbsa.nhs.uk/data-hub/data-products/public-data/prescription-dashboards-and-reports/dcb9ec3c-8aba-40e6-a808-6e1c848f4462"
+  ],
+  "lookback_indicators_excluded": "VPA4/VPA5 numerical series are omitted. Live chart/card tooltip definitions conflict with the currently linked 2021 specification; this package does not silently repair those definitions. No new-use/resumption effect is computed."
+}

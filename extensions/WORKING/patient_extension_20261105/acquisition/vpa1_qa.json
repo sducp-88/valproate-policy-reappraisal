@@ -1,0 +1,37 @@
+{
+  "indicator": "VPA1",
+  "total_rows": 94,
+  "first_period": "Sep 18-Nov 18",
+  "last_period": "Jun 26-Aug 26",
+  "study_rows": 40,
+  "study_first": "Nov 21-Jan 22",
+  "study_last": "Feb 25-Apr 25",
+  "unique_endmonths": true,
+  "continuous_months": true,
+  "three_month_width_all": true,
+  "missing_cells": 0,
+  "suppressed_cells": 0,
+  "raw_rows_fnv1a32": "a412498f",
+  "original_csv_export_obtained": false,
+  "provenance_status": "UI_TEXT_EXTRACTION",
+  "captured_at": "2026-11-05T06:10:34.050Z",
+  "known_four_rows_match": true,
+  "all_rates_within_published_two_decimal_rounding": true,
+  "assets": [
+    {
+      "file": "vpa1_raw_ui_rows.json",
+      "bytes": 4666,
+      "sha256": "f42b51be2dc626b0b0367624e9accb4057e6758fd2a42e2fbc46bcacb316f591"
+    },
+    {
+      "file": "vpa1_history.csv",
+      "bytes": 9260,
+      "sha256": "e022afa733af11da602fadf6917da269596ac0f12fba1272627a285a52ce6eec"
+    },
+    {
+      "file": "vpa1_study_40_endmonths.csv",
+      "bytes": 4022,
+      "sha256": "598dc96bb14c3223ccf70ec9d1031adbe1bfa5c09098ab14cfdbc9dfadfae260"
+    }
+  ]
+}

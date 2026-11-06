@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-11-05T05:17:46.480334+00:00",
+  "months": [
+    202309,
+    202311,
+    202403,
+    202404,
+    202504
+  ],
+  "presentation_month_cells": 297,
+  "raw_responses_reused_from_full_40_month_set": true,
+  "pilot_equals_full_subset": true,
+  "purpose": "Acquisition-stage matching and arithmetic validation; all offline numerical analyses use the full 40-month inputs.",
+  "additional_raw_downloads": 0,
+  "analysis_scripts_unchanged": true
+}

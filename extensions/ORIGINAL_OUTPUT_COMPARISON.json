@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-08
+  },
+  "tables": [
+    {
+      "file": "measurement_components/presentation_decomposition.csv",
+      "rows": 58,
+      "columns": 14,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "measurement_components/paired_log_ratio_contrasts.csv",
+      "rows": 18,
+      "columns": 13,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "measurement_components/paired_log_ratio_curves.csv",
+      "rows": 240,
+      "columns": 6,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "reproduction_bridge/reproduction_bridge_numeric_models.csv",
+      "rows": 7,
+      "columns": 32,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "reproduction_bridge/supplementary_table_reproduction_bridge.csv",
+      "rows": 6,
+      "columns": 7,
+      "numeric_max_abs_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "reproduction_bridge/reproduction_bridge_alignment_audit.csv",
+      "rows": 14,
+      "columns": 5,
+      "numeric_max_abs_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/full_all_route_presentation_month.csv",
+      "rows": 2393,
+      "columns": 13,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/oral_cost_presentation_month.csv",
+      "rows": 2200,
+      "columns": 17,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/baseline_2022_prices.csv",
+      "rows": 57,
+      "columns": 7,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/monthly_basket_detail.csv",
+      "rows": 2282,
+      "columns": 9,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/monthly_fixed_2022_price_decomposition.csv",
+      "rows": 40,
+      "columns": 18,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/monthly_cost_summary.csv",
+      "rows": 40,
+      "columns": 18,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cost/descriptive_periods.csv",
+      "rows": 6,
+      "columns": 13,
+      "numeric_max_abs_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "immutable_inputs_checked_before_after": true
+}

@@ -1,0 +1,100 @@
+{
+  "date_local": "2026-11-05",
+  "status": "PASS_WITH_INTERPRETIVE_LIMITATIONS",
+  "reviewer": "novelty_assessment independent agent",
+  "scope": "Only decomposition and paired-log-ratio implementation and interpretation; no original-primary-model modification",
+  "source_hashes": {
+    "WORKING\\strengthening_20261105\\analyze_measurement_components.py": "d0ff9710c05738bcbfdb7d3dab6c69e565c405dde21826be5a9d8657fdfea021",
+    "WORKING\\strengthening_20261105\\measurement_components\\decomposition_summary.json": "b9cd390559de1a0f0f2305d787a420699f794b26018e56430f805904233e655a",
+    "WORKING\\strengthening_20261105\\measurement_components\\presentation_decomposition.csv": "13100507a4c93874d380c998436c62208a4c5e50bd5a12cddd214635b154828c",
+    "WORKING\\strengthening_20261105\\measurement_components\\paired_log_ratio_contrasts.csv": "356cc2bc05f05442b53fb645988075a3ad9f4f1a6b63c7daf2a4d4dfa04fcac9",
+    "WORKING\\strengthening_20261105\\measurement_components\\paired_log_ratio_details.json": "51d9f57fdd7095c64a0ec94e10c26353098bc8ebd733e728ca3bcbead3a4de1b",
+    "WORKING\\strengthening_20261105\\measurement_components\\verification.json": "12325d3305a019b544bb555de86ab2d4c12a2bed31a0a8efbf3eec0981c44b7c"
+  },
+  "independent_decomposition_max_absolute_difference": 2.886579864025407e-15,
+  "independent_statsmodels_robust_ttest_checks": [
+    {
+      "measure": "ddd_per_item",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 1.7896795156957523e-13
+    },
+    {
+      "measure": "items_per_row",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 5.1514348342607263e-14
+    },
+    {
+      "measure": "ddd_per_row",
+      "breakpoint": 202311,
+      "max_abs_percent_interval_difference": 4.192202140984591e-13
+    },
+    {
+      "measure": "ddd_per_item",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 3.1086244689504383e-13
+    },
+    {
+      "measure": "items_per_row",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 2.398081733190338e-14
+    },
+    {
+      "measure": "ddd_per_row",
+      "breakpoint": 202402,
+      "max_abs_percent_interval_difference": 7.513989430663059e-13
+    }
+  ],
+  "findings": [
+    {
+      "item": "Population and periods",
+      "status": "PASS",
+      "detail": "Explicit oral-form filter gives2200cells/58presentations and agrees with the ddd-not-null source selection;57common,0entrants,1exit. Different22/18-month periods are pooled by prescription items as declared."
+    },
+    {
+      "item": "Symmetric decomposition",
+      "status": "PASS",
+      "detail": "Two-order counterfactual-weight calculation independently reproduces within,composition,entry and exit contributions. The net period ratio difference is exactly recovered."
+    },
+    {
+      "item": "Paired statistical estimand",
+      "status": "PASS_WITH_REQUIRED_INTERPRETATION",
+      "detail": "Modelling log(DDD/items) uses same-month paired data and captures numerator-denominator covariance. exp(Lbeta)-1 is a ratio change relative to continued pre-break log-ratio trend; it is not a difference between the frozen separately fitted GLS percentages or a formal retest of them."
+    },
+    {
+      "item": "HAC implementation and intervals",
+      "status": "PASS",
+      "detail": "OLS point estimates, Bartlett Newey-West covariance with n/(n-p), residualdf25 and t intervals were independently matched using statsmodels OLS robust-results t_test for lag3 and both breakpoints."
+    },
+    {
+      "item": "Time dependence and mean specification",
+      "status": "PASS_WITH_LIMITATION",
+      "detail": "Only40months/15coefficients. HAC changes covariance, not fitted mean; lag sensitivity does not prove adequate finite-sample interval coverage. February DDD/item lag1 ACF is approximately0.699 (lag2≈0.425), and DDD/row lag1≈0.604. These must remain limitations, not be described as resolved by HAC."
+    },
+    {
+      "item": "Timing sensitivity",
+      "status": "RETAIN_PROMINENTLY",
+      "detail": "November DDD/item +7.50%(2.95,12.24) versus February +0.95%(-7.10,9.70) limits attribution to the November alert or packaging policy. A nonsignificant February result is not equivalence and does not refute descriptive period decomposition."
+    },
+    {
+      "item": "Multiple ratios and correlated evidence",
+      "status": "RETAIN_PROMINENTLY",
+      "detail": "DDD/row is algebraically related to DDD/item and items/row, so the three ratios are not independent replications. November items/row interval changes from spanning0 at lag3 to just above0 at lag6; do not select the lag6 result as confirmation."
+    },
+    {
+      "item": "Meaning of94.92%",
+      "status": "RETAIN_PROMINENTLY",
+      "detail": "94.92% is the share of an exact observed pooled-period net change accounted for by the within-BNF-presentation term, not a causal attributable fraction, person-level dose change, proportion of patients, or estimated policy effect. No sampling CI is attached to this finite aggregate identity. Share percentages depend on chosen periods/aggregation, and components can exceed100% or be negative in other datasets."
+    },
+    {
+      "item": "Cross-period versus temporal estimand",
+      "status": "PASS_WITH_REQUIRED_INTERPRETATION",
+      "detail": "Raw pre/post DDD/item increases8.90%; modelled terminal ratio difference7.50% has a different denominator and time-trend comparison. Do not label the former as an ITS effect or claim the two estimates independently validate each other."
+    },
+    {
+      "item": "Fixed strengths and product coding",
+      "status": "PASS_WITH_LIMITATION",
+      "detail": "Within means the same BNFpresentation code, potentially combining practices and underlying dispensing circumstances. Entrants/exits may be coding changes. Check any code-to-strength changes before attributing within movement to pack size or repeat dispensing."
+    }
+  ],
+  "recommended_integration": "Use DDD/item as the clinically interpretable exploratory ratio; give February sensitivity alongside November. Keep rows-related ratios as supporting measurement diagnostics, preserve all executed results in supplement. Describe within-presentation94.9% as arithmetic decomposition only. No added significance tests are required to claim the finite sum identity."
+}

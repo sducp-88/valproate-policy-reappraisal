@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "author_identity_strings_found": [],
+  "publisher_pdfs": 0,
+  "patient_or_practice_records_included": false,
+  "credentials_included": false,
+  "raw_cost_national_aggregate_files": 40,
+  "pilot_evidence_files": 3
+}

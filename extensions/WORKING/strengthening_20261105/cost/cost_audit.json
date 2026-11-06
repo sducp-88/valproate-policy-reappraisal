@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "date_local": "2026-11-05",
+  "verified_at_utc": "2026-11-05T05:11:35.873380+00:00",
+  "runtime": "3.12.14",
+  "checks": [
+    "40 raw-source hashes",
+    "independent Decimal raw source to oral monthly sum",
+    "oral scope exactly matches frozen 2200-cell set",
+    "calendar-day normalisation",
+    "five-component accounting identity",
+    "unchanged frozen input hash"
+  ],
+  "all_route_cells": 2393,
+  "oral_cells": 2200,
+  "max_source_sum_difference_gbp": "3E-10",
+  "figure_visual_review": {
+    "included": false,
+    "note": "Portable numerical replay does not create or claim visual review of figures"
+  },
+  "frozen_sha256": "8422dcd5d67bd1f790ec0419fa04c2040c20d014a889e4d3c3d5a148ee9c96e7",
+  "unchanged_frozen_verified": true,
+  "no_new_scientific_claim": [
+    "No causal cost-saving estimate",
+    "No cost-effectiveness or QALY analysis",
+    "No claim April2024 reporting change explains observed valproate cost trajectory"
+  ]
+}

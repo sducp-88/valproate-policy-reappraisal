@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-11-05T05:11:35.975729+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.0",
+    "statsmodels": "0.14.6"
+  },
+  "steps": [
+    {
+      "script": "WORKING/strengthening_20261105/analyze_measurement_components.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/reproduction_bridge/build_reproduction_bridge.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/reproduction_bridge/build_table_s5.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/reproduction_bridge/independent_measurement_review.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/cost/prepare_cost_from_raw.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/cost/analyse_cost_aggregates.py",
+      "returncode": 0
+    },
+    {
+      "script": "WORKING/strengthening_20261105/cost/verify_cost_outputs.py",
+      "returncode": 0
+    }
+  ],
+  "network_required": false,
+  "original_author_code_replication": false
+}

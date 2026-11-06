@@ -1,0 +1,12 @@
+{
+  "date_local": "2026-11-05",
+  "timing": "After five-month cost field/quantity pilot passed, before descriptive cost calculations or full cost results were examined. Existing scientific manuscript results already known.",
+  "question": "Do administrative item counts, standardised volume and supplied cost measures describe interchangeable changes? What arithmetic components account for observed NIC changes?",
+  "scope": "Frozen oral valproate presentations; January 2022-April 2025; no new patient or practice records; no change to original main models.",
+  "endpoints": ["monthly NIC and Actual Cost", "calendar-day NIC", "NIC per DDD", "NIC per item", "Actual Cost divided by NIC"],
+  "reference": "Pooled calendar year 2022, using total amounts divided by its 365 days; presentation-specific baseline price is total 2022 NIC divided by total 2022 DDD.",
+  "decomposition": "For each current month, use presentations with positive DDD in both that month and 2022 as the common basket. Exactly partition change in daily NIC relative to 2022 average into common-basket total-volume change at baseline mix/price, common-basket mix change at baseline prices, common-basket unit-price change, current entrants' actual daily NIC, and minus baseline daily NIC of exited presentations. This is an explicitly ordered additive accounting decomposition, not a causal or unique attribution. Entrant/exit status is based on the frozen BNF code plus description identity.",
+  "formula": "delta C = (D_t-D_0)*U_0 + [sum_j d_jt*p_j0-D_t*U_0] + [C_t-common - sum_j d_jt*p_j0] + C_t-entry - C_0-exit; d and C are per calendar day; U_0 is baseline common-basket NIC/DDD.",
+  "limitations": ["No estimate of policy-induced savings", "Actual Cost reporting changed in April 2024; historic data retain old method", "NIC is the supplied basic price measure, not all healthcare costs", "Nominal prices; fixed-2022 prices isolate within-basket accounting components but do not establish causal mechanisms", "No clinical equivalence or outcome assumption", "Pre/post pooled summaries are descriptive and not seasonally adjusted"],
+  "integration_gate": "Recommend main-text inclusion only if verified results directly explain or alter the manuscript's measurement interpretation; otherwise retain in author feasibility note and audit."
+}

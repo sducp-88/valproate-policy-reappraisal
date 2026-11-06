@@ -1,0 +1,71 @@
+{
+  "en": "Table S5. Published-to-reconstructed bridge for the national oral-valproate analysis",
+  "zh": "表S5. 全国口服丙戊酸分析的原文报告与重建结果对照",
+  "headers": [
+    "Measure",
+    "Published [3]",
+    "Full oral\nPW 2–12",
+    "Full oral\nPW 2–11",
+    "0408010W0\nPW 2–12"
+  ],
+  "headers_zh": [
+    "指标",
+    "原文报告[3]",
+    "全部口服\nPW 2—12月",
+    "全部口服\nPW 2—11月",
+    "仅0408010W0\nPW 2—12月"
+  ],
+  "rows": [
+    [
+      "Mean outcome\n平均结局",
+      "14,840 (table 1)\n14,922 (text)\n14,840（表1）\n14,922（正文）",
+      "124,923.5",
+      "124,923.5",
+      "105,891.4"
+    ],
+    [
+      "Pre-break slope\n断点前斜率",
+      "12.6\n(−10.0 to\n35.2)",
+      "−63.7\n(−224.2 to\n96.8)",
+      "−63.8\n(−220.2 to\n92.6)",
+      "−77.0\n(−205.6 to\n51.6)"
+    ],
+    [
+      "Immediate level change\n即时水平变化",
+      "−0.8\n(−432.8 to\n431.2)",
+      "10,202.1\n(7,141.0 to\n13,263.3)",
+      "10,202.3\n(7,206.9 to\n13,197.7)",
+      "7,219.4\n(4,767.1 to\n9,671.8)"
+    ],
+    [
+      "Slope change\n斜率变化",
+      "−85.2\n(−122.9 to\n−47.5)",
+      "−622.3\n(−884.2 to\n−360.5)",
+      "−622.3\n(−877.7 to\n−366.9)",
+      "−467.9\n(−677.6 to\n−258.2)"
+    ],
+    [
+      "Post-break slope\n断点后斜率",
+      "−72.6\n(−103.5 to\n−41.8)",
+      "−686.1\n(−898.2 to\n−474.0)",
+      "−686.0\n(−893.5 to\n−478.6)",
+      "−544.9\n(−714.9 to\n−375.0)"
+    ],
+    [
+      "April 2025 difference, %\n2025年4月差异，%",
+      "−10.0\nCI not reported\n未报告区间",
+      "−0.32\n(−4.61 to\n3.98)",
+      "−0.32\n(−4.51 to\n3.87)",
+      "−0.73\n(−4.78 to\n3.32)"
+    ]
+  ],
+  "widths": [
+    1.6,
+    1.25,
+    1.28,
+    1.28,
+    1.29
+  ],
+  "note": "All analyses cover January 2022–April 2025 with a November 2023 breakpoint; the displayed reconstructions use the reported 30.4-day divisor. Full oral includes both chemical descriptors. PW denotes an iterative Prais–Winsten implementation; 2–12 and 2–11 specify calendar-month indicators. Mean and level are DDD/day equivalents; slopes are DDD/day equivalents per month. Parentheses are 95% CIs. The terminal percentage compares fitted April 2025 with projected prior-trend continuation. Published people-labelled estimates are DDD-derived, not observed distinct patients; both published overall means are retained. Exact original input, conversion code and Stata settings were unavailable. These are exploratory source-aligned comparisons, not exact replication or a between-study test. The code-restricted PW 2–11 result was −0.74% (−4.69% to 3.21%); all four new models and the frozen GLS models are retained in the audit.",
+  "note_zh": "全部分析覆盖2022年1月至2025年4月，断点为2023年11月；表中重建均采用原文30.4日除数。全部口服范围包括两种化学成分描述符。PW为迭代Prais–Winsten实现，2—12和2—11表示月份指示项。均量和水平的单位为DDD/日当量，斜率为每月DDD/日当量变化；括号内为95%CI。期末百分比比较2025年4月拟合值与断点前趋势外推值。原文标为人数的结局由DDD推导，并非实测不同患者人数；保留原文两个总体均值。未获得原始输入、转换代码及Stata设置。这些是探索性口径对齐比较，不是精确复现或跨研究检验。仅该代码范围的PW 2—11月结果为−0.74%（−4.69%至3.21%）；全部四种新模型及冻结GLS模型均在审计中保留。"
+}

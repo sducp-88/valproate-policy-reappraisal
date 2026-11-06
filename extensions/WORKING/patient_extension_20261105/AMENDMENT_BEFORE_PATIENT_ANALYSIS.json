@@ -1,0 +1,34 @@
+{
+  "recorded_utc": "2026-11-05T06:09:36Z",
+  "label": "Exploratory patient-indicator extension after V5; not prospective external registration",
+  "known_results_before_extension": "The published original and all V5 results were known. Four dashboard example rows had been observed, including Nov2021-Jan2022 n=24180 and Feb-Apr2025 n=17597. No full patient sequence or model had been analysed. These observations motivate, not confirm, this extension.",
+  "question": "How do explicitly patient-based indicators for females aged 13-54 complement all-age/all-sex oral dispensing volume, and what measurement and population boundaries prevent substitution between them?",
+  "design": "Descriptive complementary national aggregate series; no causal policy-effect estimate, independent-population validation, lifetime incident-use interpretation or dose-per-patient conversion.",
+  "endpoints": {
+    "primary_descriptive": "VPA1 numerator plus denominator-derived rate per1000, and VPA4 new-use indicator count if definitions/coverage verified",
+    "supporting": "VPA5 resumption count; VPA3 only as numerator cross-check if available; no subgroup mining",
+    "windows": "Primary descriptive snapshots are thirteen non-overlapping calendar quarters Q1 2022 through Q1 2025. All thirty-eight rolling windows ending March2022 through April2025 may be shown as contextual trajectories. February-April2025 is labelled as latest fully within-period window, overlapping Q1 2025 and not added as an independent quarter.",
+    "period_boundary": "Preserve primary dispensing January2022-April2025. Windows with constituent months outside that interval are excluded from analytic results; full source history may be retained for provenance/coverage only.",
+    "comparisons": "Absolute values and percent change Q1 2022 to Q1 2025 as calendar-matched descriptive endpoint comparison. Latest Feb-Apr2025 separately. Direction not selected after viewing. No inferential p-values, multiplicity search or ITS on this short quarterly series."
+  },
+  "aggregation_rules": [
+    "Do not sum overlapping patient windows or convert quarterly distinct-within-practice counts to monthly counts.",
+    "Do not sum starts and resumptions without independently verified mutual exclusivity; no derived discontinuation.",
+    "National counts may count one NHS number at multiple practices; label the actual indicator and disclose lack of national deduplication guarantee.",
+    "No division of all-age/all-sex oral DDD by female dashboard counts, no inference of dose/person or duration.",
+    "If displaying dispensing alongside patient series, align calendar windows but use separate axes/panels with explicit differing population/formulation coverage; no implied one-to-one conversion or causal effect comparison.",
+    "The linked2021 rules do not establish VPA4/VPA5 exclusivity: a prescription25-30 months before the current window could satisfy both24-month washout and6-month gap plus preceding24-month history. Keep both separate unless live definitions explicitly resolve this; do not derive continuing use by subtraction.",
+    "Thirteen non-overlapping time windows do not constitute thirteen independent patient cohorts; people may recur and time-series dependence remains. No independent-sample tests are planned."
+  ],
+  "qa": [
+    "Verify source headers, national geography, female age13-54 filter and end-month labels; preserve raw export or full observed DOM text with honest provenance.",
+    "Verify unique complete monthly endpoint sequence; retain missing/suppressed symbols as missing, not zero; report coverage.",
+    "Check VPA1 rate=1000*numerator/denominator at published rounding tolerance and anchor rows against earlier observations.",
+    "Verify lookback definitions, formulation list and practice aggregation; distinguish currently linked2021 specification from confirmed live notes and unresolved historical version consistency.",
+    "Independently reconstruct quarter selection, descriptives and any matched dispensing-window aggregates from raw data; retain original models and V5 delivery hashes."
+  ],
+  "inclusion_gate": "Include only retrieved, verified indicators that answer a distinct complementary question. If only VPA1 is complete, analyse that transparently without inventing VPA4/5. If critical definitions/coverage fail, retain an author-only feasibility record and do not add an effect claim.",
+  "pre_analysis_method_review": "Independent review identified potential overlap between official new-use and resumption definitions before full series inspection; boundary strengthened without changing endpoint selection.",
+  "source": "Official public NHSBSA dashboard, National, female age 13–54, VPA1. Public aggregates only; no individual records or credentials.",
+  "package_scope": "Anonymous scientific amendment copy, with administrative instructions omitted. VPA4/VPA5 are not analysed or supplied as result series because live definitions conflict with the linked specification."
+}

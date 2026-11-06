@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-11-05T05:11:26.049877+00:00",
+  "files": {
+    "ANALYSIS/data/monthly_analysis.csv": "31c501f1871742cc2abfe92d2b40fb75d3b4f4a8b50a3938ef0cd51e557ca0fe",
+    "ANALYSIS/data/valproate_presentation_month.csv": "8422dcd5d67bd1f790ec0419fa04c2040c20d014a889e4d3c3d5a148ee9c96e7",
+    "ANALYSIS/data/presentation_mapping.csv": "08a5ac3a4bae0d86cdf1ab8456c722e072bbd6da8fd5c143f153656eea614a21",
+    "ANALYSIS/results/models.json": "41851f26c44d72e22dc05b4bdf3ffbbf8345c57c9adae03a42768772e9c120d4"
+  },
+  "amendment_sha256": "75ff618cdd086b261cc86eaec045a6c9ed9e69c13fc829e4db25c7fb74ddb741"
+}

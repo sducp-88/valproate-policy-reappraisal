@@ -1,0 +1,64 @@
+{
+  "id": "published_primary",
+  "data_source": "Public NHSBSA community dispensing, original download/version unavailable",
+  "drug_scope": "Text names Sodium valproate and Valproic acid but associates them with 0408010W0; exact executable filter unavailable",
+  "route": "Oral; injectable formulations excluded from DDD analysis",
+  "date_from": 202201,
+  "date_to": 202504,
+  "n": 40,
+  "breakpoint": 202311,
+  "divisor": 30.4,
+  "mean_outcome_narrative": 14922,
+  "mean_outcome_table1": 14840,
+  "mean_outcome_pre_table1": 15054,
+  "mean_outcome_post_table1": 14578,
+  "mean_monthly_ddd_table1": 451205,
+  "mean_monthly_items_table1": 233375,
+  "total_prescriptions_abstract_results": 4879978,
+  "total_prescriptions_methods": "9.3 million",
+  "pre_slope": {
+    "estimate": 12.6,
+    "lower": -10.0,
+    "upper": 35.2
+  },
+  "immediate_level": {
+    "estimate": -0.8,
+    "lower": -432.8,
+    "upper": 431.2
+  },
+  "slope_change": {
+    "estimate": -85.2,
+    "lower": -122.9,
+    "upper": -47.5
+  },
+  "post_slope": {
+    "estimate": -72.6,
+    "lower": -103.5,
+    "upper": -41.8
+  },
+  "terminal_counterfactual": 15281,
+  "terminal_fitted_or_actual_as_worded": 13747,
+  "terminal_percent_reported": -10.0,
+  "terminal_percent_ci": null,
+  "method": "Prais-Winsten stated; exact Stata command, rho estimator, options, time encoding and covariance matrix unavailable",
+  "seasonality": "Methods says February through November; whether December was actually excluded is unknown",
+  "main_source_url": "https://qualitysafety.bmj.com/content/early/2025/11/25/bmjqs-2025-019415",
+  "source_lines": "QA/galloway_full_text.txt:380-479,549-570,730-785",
+  "reported_outcome_label": "people prescribed per month, derived from DDDs/30.4; not observed distinct patients",
+  "arithmetic_checks_from_rounded_published_numbers": {
+    "endpoint_difference": -1534,
+    "endpoint_percent": -10.038610038610038,
+    "level_plus_17_slope_changes": -1449.2,
+    "level_plus_18_slope_changes": -1534.4,
+    "discrepancy_endpoint_minus_17_step": -84.79999999999995,
+    "discrepancy_endpoint_minus_18_step": 0.40000000000009095,
+    "interpretation": "Rounded published endpoint difference is close to an 18-increment calculation. This cannot identify the original time encoding or establish an error; the current coding has first post after=0 and final after=17. Starting the post-break time at1 instead of0 reparameterizes the level coefficient while preserving the fitted model space. The actual definition of the published level coefficient and terminal month is unknown; this arithmetic is a request for clarification, not a finding of bias."
+  },
+  "descriptive_coefficients_percent_of_table1_mean": {
+    "pre_slope": 0.08490566037735849,
+    "immediate_level": -0.005390835579514825,
+    "slope_change": -0.5741239892183289,
+    "post_slope": -0.4892183288409703
+  },
+  "source_note": "Verified transcription from the cited publication; source PDF/full text and original author code are not included in this anonymous package. This is not exact original-code replication."
+}

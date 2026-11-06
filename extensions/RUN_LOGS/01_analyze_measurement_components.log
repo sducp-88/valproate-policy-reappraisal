@@ -1,0 +1,87 @@
+{
+  "decomposition": {
+    "pre_months": 22,
+    "post_months": 18,
+    "oral_cells": 2200,
+    "presentations": 58,
+    "common_presentations": 57,
+    "entrants": 0,
+    "exits": 1,
+    "pre_ddd_per_item": 15.667181849972103,
+    "post_ddd_per_item": 17.061861015517522,
+    "absolute_change": 1.3946791655454192,
+    "relative_change_percent": 8.901914708725368,
+    "pre_items": 5268429.0,
+    "post_items": 4065533.0,
+    "common_item_share_pre": 0.9999998101900965,
+    "common_item_share_post": 0.9999999999999999,
+    "components": {
+      "within": {
+        "ddd_per_item": 1.3238416062225704,
+        "percent_of_net_change": 94.92087061506034
+      },
+      "mix": {
+        "ddd_per_item": 0.07084059628130768,
+        "percent_of_net_change": 5.079347138135812
+      },
+      "entry": {
+        "ddd_per_item": 0.0,
+        "percent_of_net_change": 0.0
+      },
+      "exit": {
+        "ddd_per_item": -3.036958455736995e-06,
+        "percent_of_net_change": -0.0002177531959150854
+      }
+    },
+    "verification_max_product_identity_error": 1.0547118733938987e-15,
+    "interpretation": "Symmetric exact decomposition of pooled period DDD/item ratios; not a causal decomposition or a change in individual dose/treatment duration. Product-code entry/exit may include coding changes."
+  },
+  "primary_ratio_results": [
+    {
+      "measure": "ddd_per_item",
+      "breakpoint": 202311,
+      "HAC_lag": 3,
+      "n_months": 40,
+      "parameters": 15,
+      "residual_df": 25,
+      "terminal_log_difference": 0.07228089550805594,
+      "se_log": 0.020991514613548607,
+      "terminal_percent_ratio_difference": 7.495725232302128,
+      "lower": 2.947407174622632,
+      "upper": 12.244992470942767,
+      "role": "primary_exploratory",
+      "covariance_max_difference_vs_statsmodels": 1.3918445389282663e-17
+    },
+    {
+      "measure": "items_per_row",
+      "breakpoint": 202311,
+      "HAC_lag": 3,
+      "n_months": 40,
+      "parameters": 15,
+      "residual_df": 25,
+      "terminal_log_difference": 0.029157272749056752,
+      "se_log": 0.016297340442862983,
+      "terminal_percent_ratio_difference": 2.958650764298133,
+      "lower": -0.43980284229814814,
+      "upper": 6.47310943361936,
+      "role": "primary_exploratory",
+      "covariance_max_difference_vs_statsmodels": 9.784924606681678e-18
+    },
+    {
+      "measure": "ddd_per_row",
+      "breakpoint": 202311,
+      "HAC_lag": 3,
+      "n_months": 40,
+      "parameters": 15,
+      "residual_df": 25,
+      "terminal_log_difference": 0.10143816825711142,
+      "se_log": 0.036008207668380574,
+      "terminal_percent_ratio_difference": 10.676148328475314,
+      "lower": 2.765332364503622,
+      "upper": 19.195934338822738,
+      "role": "primary_exploratory",
+      "covariance_max_difference_vs_statsmodels": 5.2475385148298415e-17
+    }
+  ]
+}
+
